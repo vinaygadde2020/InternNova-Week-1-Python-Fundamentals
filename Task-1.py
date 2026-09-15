@@ -1,0 +1,7 @@
+print("Welcome to python Data Analytics")
+name = input("Enter your name:")
+college = input("Enter your college:")
+branch = input("Enter your branch:")
+print("Name:",name)
+print("College:",college)
+print("Branch:",branch)

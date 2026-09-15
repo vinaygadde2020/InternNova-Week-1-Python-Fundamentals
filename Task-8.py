@@ -1,0 +1,8 @@
+file = open("introduction.txt", "w")
+file.write("My name is Vinay.\n")
+file.write("I am studying B.Tech Data Science at Aditya University.")
+file.close()
+file = open("introduction.txt", "r")
+content = file.read()
+print(content)
+file.close()
